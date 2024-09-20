@@ -1,0 +1,85 @@
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    outline: none;
+}
+
+/* Blue Button */
+.btn-blue {
+    background-color: #3498db;
+}
+
+.btn-blue:hover {
+    background-color: #145885;
+}
+.btn-blue:active {
+    background-color: #1f6f9f;
+    transform: scale(0.98);
+}
+
+/* Red Button */
+.btn-red {
+    background-color: #e74c3c;
+}
+
+.btn-red:hover {
+    background-color: #a62c1f;
+}
+
+.btn-red:active {
+    background-color: #eb3115;
+    transform: scale(0.98);
+}
+
+/* Green Button */
+.btn-green {
+    background-color: #2ecc71;
+}
+
+.btn-green:hover {
+    background-color: #0a7938;
+}
+
+.btn-green:active {
+    background-color: #2acd6e;
+    transform: scale(0.98);
+}
+
+/* Yellow Button */
+.btn-yellow {
+    background-color: #f1c40f;
+}
+
+.btn-yellow:hover {
+    background-color: #9f6200;
+}
+
+.btn-yellow:active {
+    background-color: #e1a61b;
+    transform: scale(0.98);
+}
+.btn-purple {
+    background-color: #9b59b6;
+}
+
+.btn-purple:hover {
+    background-color: #57037c;
+}
+
+.btn-purple:active {
+    background-color: #7d3f7d;
+    transform: scale(0.98);
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
